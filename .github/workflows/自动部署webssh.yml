@@ -19,7 +19,7 @@ on:
         default: ''
 
 env:
-  DOCKER_IMAGE: ${{ secrets.DOCKER_IMAGE || 'edward0807/webssh:latest' }}
+  DOCKER_IMAGE: ${{ secrets.DOCKER_IMAGE || 'ghcr.io/edward0807/webssh:latest' }}
   MEMORY: ${{ secrets.MEMORY || '256M' }}
   DISK: ${{ secrets.DISK || '256M' }}
 
