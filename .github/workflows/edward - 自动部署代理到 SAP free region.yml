@@ -1,4 +1,4 @@
-name: Edward 自动部署代理到 SAP free region
+name: edward 自动部署代理到 SAP free region
 
 on:
   workflow_dispatch:  # 只允许手动触发
